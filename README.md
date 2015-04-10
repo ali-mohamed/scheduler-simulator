@@ -19,8 +19,11 @@ Simulator for Process Scheduling Types used by Operating Systems
   5. Set Process Burst/Execute Time
   6. Set Prcess Priority (if Priority Based is chosen)
   7. Press Next
+
 Note: You will find a Dialog Window shows Timeline and every process added to add more interactivity (WYDIWYG).
+
 Note: You can press Back if you want to edit process info and you will still have Timeline updated.
+
 Note: You can not run more than an Algorithm at time.
 
 # TO DO
