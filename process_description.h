@@ -15,6 +15,11 @@ public:
     explicit process_description(QWidget *parent = 0);
     ~process_description();
 
+public slots:
+    void getProcessDescription(const QString &text);
+    void getTimelineDescription(const QString &text);
+    void getAWT(const QString &text);
+
 private:
     Ui::process_description *ui;
 };
