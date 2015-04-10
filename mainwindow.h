@@ -15,6 +15,11 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+    void on_enter_data_pushButton_clicked();
+
+    void on_type_of_scheduler_comboBox_currentTextChanged(const QString &arg1);
+
 private:
     Ui::MainWindow *ui;
 };
