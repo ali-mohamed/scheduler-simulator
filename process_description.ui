@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>process_description</class>
- <widget name="process_description" class="QDialog">
+ <widget class="QDialog" name="process_description">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -12,6 +13,32 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="process_label">
+     <property name="text">
+      <string>Processes:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="listWidget"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="timeline_label">
+     <property name="text">
+      <string>Timeline:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="awt_label">
+     <property name="text">
+      <string>Average Waiting Time:</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>
